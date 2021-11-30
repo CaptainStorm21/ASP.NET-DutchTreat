@@ -1,0 +1,83 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
+
+body {
+    font-family: 'Mukta', sans-serif;
+    color: darkblue;
+}
+
+label {
+    font-family: 'Mukta', sans-serif;
+    color: palegoldenrod;
+    font-size: 18px;
+}
+
+
+input, textarea {
+    font-size: 16px;
+    width: 250px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    outline: 1px solid darkgrey;
+}
+
+#theForm {
+    background-color: darkcyan;
+    padding: 10px;
+    border-radius: 10px;
+    width: 260px;
+    margin: 0 auto;
+}
+
+ul.product-list {
+    list-style: none;
+}
+
+    ul.product-list > li {
+        color: #4800ff;
+        margin-top: 5px;
+    }
+
+#theForm input[type=submit]{
+    background-color: red;
+    color: white;
+    border-radius: 3px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: auto;
+    padding: 10px;
+}
+
+.title {
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Damion', cursive;
+}
+
+.paragraph {
+    text-align: left;
+    border-left: red 20px solid;
+    font-family: 'Mukta', sans-serif;
+    padding-left: 20px;
+}
+
+.product-info {
+    border: 1px solid grey;
+    display: inline-block;
+    padding: 10px;
+    margin: 5px;
+    background-color: lightyellow;
+    border-radius: 5px;
+}
+
+.product-info button{
+    background-color: forestgreen;
+    color: white;
+    padding: 12px;
+    border-radius: 5px;
+
+}
+
+.product-info img {
+    float: left;
+    max-width: 300px;
+}
